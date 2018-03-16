@@ -10,6 +10,7 @@ namespace TestWebApp.Controllers
     {
         public ActionResult Index()
         {
+            int a = 2/0;
             return View();
         }
 
